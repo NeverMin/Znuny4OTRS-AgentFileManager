@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>Znuny4OTRS-AgentFileManager</Name>
+    <Version>3.0.0</Version>
+    <ChangeLog Version="3.0.0" Date="2013-04-06 01:31:08" Version="1.5.3">update to 3.x Framework</ChangeLog>
+    <Framework>3.3.x</Framework>
+    <PackageRequired Version="2.0.2">Znuny4OTRS-Repo</PackageRequired>
+    <Vendor>Znuny Inc.</Vendor>
+    <URL>http://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">A web file system manager with download/upload option.</Description>
+    <Description Lang="de">Ein Web Datei Manager mit download/upload Moeglichkeit.</Description>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/FileManager.xml"/>
+        <File Permission="644" Location="Kernel/Language/de_AgentFileManager.pm"/>
+        <File Permission="644" Location="Kernel/Modules/AgentFileManager.pm"/>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentFileManager.dtl"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager.png"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_back.png"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_file2.png"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_folder2.png"/>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_remove.png"/>
+        <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRSEscalationSuspend.xml"/>
+    </Filelist>
+    <IntroInstall Type="post" Title="Installation Information" Lang="en"><![CDATA[
+        <br/>
+        Welcome to <u>Znuny4OTRS-AgentFileManager</u>!
+        <br/>
+        <br/>
+        You are about to install a web based file manager.
+        <br/>
+        <br/>
+        <p>
+        Your Znuny Team!
+        <br/>
+        <a href="http://znuny.com.cn/" target="_blank">http://znuny.com.cn</a>
+        </p>
+        <br/>
+        <br/>
+    ]]></IntroInstall>
+</otrs_package>
