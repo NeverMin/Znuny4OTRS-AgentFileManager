@@ -20,7 +20,6 @@
         <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_file2.png"/>
         <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_folder2.png"/>
         <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/filemanager_remove.png"/>
-        <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRSEscalationSuspend.xml"/>
     </Filelist>
     <IntroInstall Type="post" Title="Installation Information" Lang="en"><![CDATA[
         <br/>
